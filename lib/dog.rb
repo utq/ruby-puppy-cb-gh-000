@@ -12,12 +12,8 @@ class Dog
   end
 
   def self.all
-   result = []
-   @@all.each do |d|
-     result << d.name
-   end
-   result
-   end
+    @@all
+  end
 
    def self.print_all
     @@all.each do |d|
